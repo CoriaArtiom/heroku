@@ -49,9 +49,9 @@
   </xsl:template>
 
   <xsl:template match="низверх">
-    <msubsup>
+    <munderover>
       <xsl:apply-templates/>
-    </msubsup>
+    </munderover>
   </xsl:template>
 
   <xsl:template match="верх">
