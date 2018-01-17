@@ -48,7 +48,7 @@
     </mn>
   </xsl:template>
 
-  <xsl:template match="низверх">
+  <xsl:template match="ниpверх">
     <msubsup>
       <xsl:apply-templates/>
     </msubsup>
