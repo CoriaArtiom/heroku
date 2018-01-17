@@ -12,55 +12,55 @@
     </html> 
   </xsl:template>
 
-  <xsl:template match="ñòðîêà">
+  <xsl:template match="ÑÑ‚Ñ€Ð¾ÐºÐ°">
     <mrow>
       <xsl:apply-templates/>
     </mrow>
   </xsl:template>
 
-  <xsl:template match="îïåðàíä">
+  <xsl:template match="Ð¾Ð¿ÐµÑ€Ð°Ð½Ð´">
     <mi>
       <xsl:value-of select="."/>
     </mi>
   </xsl:template>
 
-  <xsl:template match="îïåðàòîð">
+  <xsl:template match="Ð¾Ð¿ÐµÑ€Ð°Ñ‚Ð¾Ñ€">
     <mo>
       <xsl:value-of select="."/>
     </mo>
   </xsl:template>
 
-  <xsl:template match="êîðåíü">
+  <xsl:template match="ÐºÐ¾Ñ€ÐµÐ½ÑŒ">
     <msqrt>
       <xsl:apply-templates/>
     </msqrt>
   </xsl:template>
 
-  <xsl:template match="äðîáü">
+  <xsl:template match="Ð´Ñ€Ð¾Ð±ÑŒ">
     <mfrac>
       <xsl:apply-templates/>
     </mfrac>
   </xsl:template>
 
-  <xsl:template match="÷èñëî">
+  <xsl:template match="Ñ‡Ð¸ÑÐ»Ð¾">
     <mn>
       <xsl:value-of select="."/>
     </mn>
   </xsl:template>
 
-  <xsl:template match="íèpâåðõ">
+  <xsl:template match="Ð½Ð¸pÐ²ÐµÑ€Ñ…">
     <msubsup>
       <xsl:apply-templates/>
     </msubsup>
   </xsl:template>
 
-  <xsl:template match="âåðõ">
+  <xsl:template match="Ð²ÐµÑ€Ñ…">
     <msup>
       <xsl:apply-templates/>
     </msup>
   </xsl:template>
 
-  <xsl:template match="íèç">
+  <xsl:template match="Ð½Ð¸Ð·">
     <msub>
       <xsl:apply-templates/>
     </msub>
